@@ -1,0 +1,14 @@
+{
+  "name": "next-gradients",
+  "version": "1.0.0",
+  "description": "This package provides an easy way to add gradients to nextjs apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adeir Junior (hello@adeir.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
