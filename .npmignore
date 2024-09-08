@@ -4,3 +4,4 @@ tsconfig.json
 .hintrc
 rollup.config.mjs
 thumb.gif
+README.md
