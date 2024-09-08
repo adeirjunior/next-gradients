@@ -1,6 +1,6 @@
-/lib
-/node_modules
-/dist
+lib/
+node_modules
+dist/
 *storybook.log
 .hintrc
 .rollup*
