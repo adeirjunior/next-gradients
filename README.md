@@ -29,7 +29,7 @@ The components can be used either on the `app/` or `pages/` directories. Here’
 ```javascript
 import { RandomGradient } from 'next-gradients';
 
-// This page will have a different background gradients every time the page reloads 
+// This page will have a different background gradient every time the page reloads 
 export default function page() {
     return (
         <RandomGradient>
