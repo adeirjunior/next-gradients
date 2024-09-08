@@ -61,7 +61,9 @@
   "keywords": [
     "next",
     "nextjs",
-    "gradients"
+    "gradients",
+    "front-end",
+    "react"
   ],
   "bugs": {
     "url": "https://github.com/adeirjunior/next-gradients/issues"
