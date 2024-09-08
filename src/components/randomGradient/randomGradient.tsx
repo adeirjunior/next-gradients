@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { generateRandomGradient } from '../../utils/generateRandomGradient';
 
 interface RandomGradientProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -9,7 +9,7 @@ export const RandomGradient: React.FC<RandomGradientProps> = ({
   children,
   ...props
 }) => {
-  const background = useMemo(() => generateRandomGradient(), []);
+  const background =  generateRandomGradient();
 
   return (
     <div
