@@ -33,7 +33,7 @@ import { RandomGradient } from 'next-gradients';
 export default function page() {
     return (
         <RandomGradient>
-            <!-- ...other elements -->
+            {/* ...other elements */}
         </RandomGradient>
     )
 }
