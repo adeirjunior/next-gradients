@@ -29,7 +29,7 @@ The components can be used either on the `app/` or `pages/` directories. Here’
 ```javascript
 import { RandomGradient } from 'next-gradients';
 
-// This page will 
+// This page will have a different background gradients every time the page reloads 
 export default function page() {
     return (
         <RandomGradient>
@@ -53,10 +53,5 @@ If you’d like to contribute to this project, please follow these guidelines:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit) file for details.
-
-## Acknowledgments
-
-- Inspiration
-- References
 
 ---
