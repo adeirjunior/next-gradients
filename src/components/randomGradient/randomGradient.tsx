@@ -1,27 +1,25 @@
-import { generateRandomGradient } from "../../utils/generateRandomGradient";
-import React, { useMemo } from "react";
+import React, { useMemo } from 'react';
+import { generateRandomGradient } from '../../utils/generateRandomGradient';
 
 interface RandomGradientProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
 }
 
-
-
 export const RandomGradient: React.FC<RandomGradientProps> = ({
   children,
   ...props
 }) => {
-  const background = useMemo(() => generateRandomGradient(), [])
+  const background = useMemo(() => generateRandomGradient(), []);
 
   return (
     <div
       {...props}
       style={{
-        position: "absolute",
+        position: 'absolute',
         top: 0,
         left: 0,
-        width: "100%",
-        height: "100%",
+        width: '100%',
+        height: '100%',
         background: background,
         filter:
           "progid:DXImageTransform.Microsoft.gradient(startColorstr='#22c1c3', endColorstr='#fdbb2d', GradientType=1)",
@@ -30,9 +28,9 @@ export const RandomGradient: React.FC<RandomGradientProps> = ({
     >
       <div
         style={{
-          background: "rgba(255, 255, 255, 0.500)",
-          height: "100%",
-          width: "100%",
+          background: 'rgba(255, 255, 255, 0.500)',
+          height: '100%',
+          width: '100%',
         }}
       >
         {children}

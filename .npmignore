@@ -1,7 +1,11 @@
+*.log
+.DS_Store
+.cache
+.hintrc
+LICENSE
 src
 tsconfig.json
 .storybook
-.hintrc
-rollup.config.mjs
 thumb.gif
 README.md
+.github

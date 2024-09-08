@@ -1,1 +1,1 @@
-export * from './randomGradient'
+export * from './randomGradient';
