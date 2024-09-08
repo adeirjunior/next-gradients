@@ -3,3 +3,4 @@ tsconfig.json
 .storybook
 .hintrc
 rollup.config.mjs
+thumb.gif
