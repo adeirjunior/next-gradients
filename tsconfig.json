@@ -1,10 +1,18 @@
 {
   "compilerOptions": {
-    "incremental": true, /* Enable incremental compilation */
+    "jsx": "react",
+    "incremental": false, /* Enable incremental compilation */
     "target": "es5", /* Specify ECMAScript target version: */
-    "module": "commonjs", /* 'none', 'commonjs', 'amd', 'system', etc */
+    "module": "NodeNext", /* 'none', 'commonjs', 'amd', 'system', etc */
+    "moduleResolution": "NodeNext",
     "declaration": true, /* Concatenate & emit output to single file.*/
     "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
     "outDir": "lib", /* Redirect output to the directory. */
     "esModuleInterop": true, /* Enables intero between CommonJS and ES */
     "skipLibCheck": true, /* Skip type checking of declaration files. */
