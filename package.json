@@ -1,7 +1,7 @@
 {
   "name": "next-gradients",
   "description": "This package provides an easy way to add gradients to nextjs apps",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

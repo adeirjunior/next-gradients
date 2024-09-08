@@ -23,7 +23,6 @@ export const RandomGradient: React.FC<RandomGradientProps> = ({
         background: background,
         filter:
           "progid:DXImageTransform.Microsoft.gradient(startColorstr='#22c1c3', endColorstr='#fdbb2d', GradientType=1)",
-        zIndex: -1,
       }}
     >
       <div
