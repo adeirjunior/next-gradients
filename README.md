@@ -1,6 +1,6 @@
 # Next Gradients
 
-[![Next Gradients](./thumb.gif)](.)
+[![Next Gradients](https://github.com/adeirjunior/next-gradients/blob/main/thumb.gif)](.)
 
 ---
 
